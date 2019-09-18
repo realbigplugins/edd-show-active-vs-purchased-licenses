@@ -1,0 +1,83 @@
+# Copyright (C) 2019 edd_show_active_vs_purchased_licenses
+# This file is distributed under the same license as the edd_show_active_vs_purchased_licenses package.
+msgid ""
+msgstr ""
+"Project-Id-Version: edd_show_active_vs_purchased_licenses\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: edd-show-active-vs-purchased-licenses.php:62
+msgctxt "First string is the plugin name, followed by the required WordPress version and then the anchor tag for a link to the Update screen."
+msgid "%s requires v%s of %sWordPress%s or higher to be installed!"
+msgstr ""
+
+#: edd-show-active-vs-purchased-licenses.php:74, edd-show-active-vs-purchased-licenses.php:86
+msgid "%s requires %s to be installed!"
+msgstr ""
+
+#: core/admin/admin-page.php:41
+msgid "Show Active vs Purchased Licenses"
+msgstr ""
+
+#: core/admin/admin-page.php:84
+msgid "Invalid Nonce sent"
+msgstr ""
+
+#: core/admin/admin-page.php:90
+msgid "A Download ID was not sent"
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:19
+msgid "Totals for both Bundles and Individual Sales"
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:24, core/admin/views/html-ajax-response.php:70, core/admin/views/html-ajax-response.php:116
+msgid "Total Number of Sales: "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:28, core/admin/views/html-ajax-response.php:74, core/admin/views/html-ajax-response.php:120
+msgid "Total Number of Licenses Distributed (Limited): "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:32, core/admin/views/html-ajax-response.php:78, core/admin/views/html-ajax-response.php:124
+msgid "Total Number of Active Distributed Licenses (Limited): "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:36, core/admin/views/html-ajax-response.php:82, core/admin/views/html-ajax-response.php:128
+msgid "Total Number of Licenses Distributed (Unlimited): "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:40, core/admin/views/html-ajax-response.php:86, core/admin/views/html-ajax-response.php:132
+msgid "Total Number of Active Licenses Distributed (Unimited): "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:44, core/admin/views/html-ajax-response.php:90, core/admin/views/html-ajax-response.php:136
+msgid "Total Revenue: "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:48, core/admin/views/html-ajax-response.php:94, core/admin/views/html-ajax-response.php:140
+msgid "Total Paid Commissions: "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:52, core/admin/views/html-ajax-response.php:98, core/admin/views/html-ajax-response.php:144
+msgid "Total Paid Referrals: "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:56, core/admin/views/html-ajax-response.php:102, core/admin/views/html-ajax-response.php:148
+msgid "Total Gross Profit: "
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:65
+msgid "Totals for Bundle Sales Only"
+msgstr ""
+
+#: core/admin/views/html-ajax-response.php:111
+msgid "Totals for Individual Sales Only"
+msgstr ""
