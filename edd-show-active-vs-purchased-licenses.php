@@ -2,7 +2,7 @@
 /**
  * Plugin Name: EDD - Show Active vs Purchased Licenses
  * Description: Shows how many Purchased Licenses there are for a Download and of how many activations are available, how many are actually being used
- * Version: 0.1.0
+ * Version: 0.2.0
  * Text Domain: edd-show-active-vs-purchased-licenses
  * Author: Real Big Plugins
  * Author URI: https://realbigplugins.com/
