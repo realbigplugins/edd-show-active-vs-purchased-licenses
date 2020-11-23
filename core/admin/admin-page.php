@@ -56,7 +56,7 @@ if ( ! class_exists( 'EDD_Show_Active_vs_Purchased_Licenses_Admin_Page' ) ) {
 
         public function enqueue_scripts() {
 
-            if ( ! isset( $_GET['tab'] ) && $_GET['tab'] !== 'show_active_vs_purchased_licenses' ) return;
+            if ( ! isset( $_GET['tab'] ) || $_GET['tab'] !== 'show_active_vs_purchased_licenses' ) return;
 
             wp_enqueue_script( 'edd-show-active-vs-purchased-licenses-admin' );
 
@@ -64,7 +64,7 @@ if ( ! class_exists( 'EDD_Show_Active_vs_Purchased_Licenses_Admin_Page' ) ) {
 
         public function edd_product_dropdown_args( $args ) {
 
-            if ( ! isset( $_GET['tab'] ) && $_GET['tab'] !== 'show_active_vs_purchased_licenses' ) return $args;
+            if ( ! isset( $_GET['tab'] ) || $_GET['tab'] !== 'show_active_vs_purchased_licenses' ) return $args;
 
             $args['post_status'] = 'publish';
 
