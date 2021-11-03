@@ -274,7 +274,7 @@ if ( ! class_exists( 'EDD_Show_Active_vs_Purchased_Licenses' ) ) {
  * @since	  {{VERSION}}
  * @return	  \EDD_Show_Active_vs_Purchased_Licenses The one true EDD_Show_Active_vs_Purchased_Licenses
  */
-add_action( 'plugins_loaded', 'EDD_Show_Active_vs_Purchased_Licenses_load' );
+add_action( 'plugins_loaded', 'EDD_Show_Active_vs_Purchased_Licenses_load', 11 );
 function EDD_Show_Active_vs_Purchased_Licenses_load() {
 
 	require_once __DIR__ . '/core/edd-show-active-vs-purchased-licenses-functions.php';
